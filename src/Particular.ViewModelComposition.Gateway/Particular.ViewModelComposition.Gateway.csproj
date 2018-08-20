@@ -5,15 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Particular.ViewModelComposition\Particular.ViewModelComposition.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
     <PackageReference Include="Particular.Packaging" Version="0.2.0" PrivateAssets="All" />
     <PackageReference Include="System.ValueTuple" Version="4.3.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Particular.ViewModelComposition\Particular.ViewModelComposition.csproj" />
   </ItemGroup>
 
 </Project>
