@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GitVersionTask" Version="4.0.0-beta0012" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.1.2" />
     <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />

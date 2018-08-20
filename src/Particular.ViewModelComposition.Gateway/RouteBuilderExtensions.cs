@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
-using Microsoft.AspNetCore.Routing.Constraints;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace ITOps.ViewModelComposition.Gateway
+﻿namespace Particular.ViewModelComposition.Gateway
 {
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Routing;
+    using Microsoft.AspNetCore.Routing.Constraints;
+    using Microsoft.Extensions.DependencyInjection;
+
     public static class RouteBuilderExtensions
     {
         public static IRouteBuilder MapComposableGet(

@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.DependencyModel;
-using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Loader;
-
-namespace ITOps.ViewModelComposition
+﻿namespace Particular.ViewModelComposition
 {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using System.Runtime.Loader;
+    using Microsoft.Extensions.DependencyModel;
+
     internal static class AssemblyLoader
     {
         public static Assembly Load(string path)
