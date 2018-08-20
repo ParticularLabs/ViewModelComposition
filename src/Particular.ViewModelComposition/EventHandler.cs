@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
-using System.Threading.Tasks;
-
-namespace ITOps.ViewModelComposition
+﻿namespace Particular.ViewModelComposition
 {
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Routing;
+
     public delegate Task EventHandler<TEvent>(dynamic pageViewModel, TEvent @event, RouteData routeData, IQueryCollection query);
 }

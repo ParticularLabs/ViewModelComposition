@@ -1,4 +1,4 @@
-﻿namespace ITOps.ViewModelComposition
+﻿namespace Particular.ViewModelComposition
 {
     public interface ISubscribeToCompositionEvents : IRouteInterceptor
     {
