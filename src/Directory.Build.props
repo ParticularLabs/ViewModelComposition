@@ -3,6 +3,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile> <!--TODO Remove this -->
   </PropertyGroup>
 
 </Project>
