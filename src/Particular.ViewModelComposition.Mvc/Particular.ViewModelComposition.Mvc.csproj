@@ -5,6 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
     <Description>TODO Add real package description</Description>
+    <!--<PackageTags>add package tags</PackageTags>-->
   </PropertyGroup>
 
   <ItemGroup>
