@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <AssemblyName>Particular.ViewModelComposition.Mvc</AssemblyName>
-	<NuSpecFileName>Particular.ViewModelComposition.Mvc</NuSpecFileName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ITOps.ViewModelComposition\ITOps.ViewModelComposition.csproj" />
+    <ProjectReference Include="..\Particular.ViewModelComposition\Particular.ViewModelComposition.csproj" />
   </ItemGroup>
 
 </Project>
