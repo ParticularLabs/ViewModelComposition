@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelComposition", "Particular.ViewModelComposition\Particular.ViewModelComposition.csproj", "{1CB1214F-5A83-4184-BD6A-204B0BEED77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particular.ViewModelComposition", "Particular.ViewModelComposition\Particular.ViewModelComposition.csproj", "{1CB1214F-5A83-4184-BD6A-204B0BEED77C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelComposition.Gateway", "Particular.ViewModelComposition.Gateway\Particular.ViewModelComposition.Gateway.csproj", "{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particular.ViewModelComposition.Gateway", "Particular.ViewModelComposition.Gateway\Particular.ViewModelComposition.Gateway.csproj", "{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelComposition.Mvc", "Particular.ViewModelComposition.Mvc\Particular.ViewModelComposition.Mvc.csproj", "{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particular.ViewModelComposition.Mvc", "Particular.ViewModelComposition.Mvc\Particular.ViewModelComposition.Mvc.csproj", "{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CC84294-8F00-48BC-A5C5-F6A964DFF6A8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		..\GitVersion.yml = ..\GitVersion.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
