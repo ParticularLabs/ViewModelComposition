@@ -4,8 +4,8 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
-    <Description>TODO Add real package description</Description>
-    <!--<PackageTags>add package tags</PackageTags>-->
+    <Description>Package for view model composition in ASP.NET Core API</Description>
+    <PackageTags>aspnetcore api composition</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="1.*" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
     <PackageReference Include="Particular.Packaging" Version="0.2.0" PrivateAssets="All" />
     <PackageReference Include="System.ValueTuple" Version="4.3.1" />
