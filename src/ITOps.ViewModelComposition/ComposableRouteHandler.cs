@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace ITOps.ViewModelComposition.Gateway
+namespace ITOps.ViewModelComposition
 {
     class ComposableRouteHandler
     {
