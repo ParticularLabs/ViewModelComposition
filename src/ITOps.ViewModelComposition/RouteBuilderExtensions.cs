@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ITOps.ViewModelComposition.Gateway
+namespace ITOps.ViewModelComposition
 {
     public static class RouteBuilderExtensions
     {

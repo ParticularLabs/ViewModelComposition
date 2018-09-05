@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Routing;
 using System;
 using System.Threading.Tasks;
 
-namespace ITOps.ViewModelComposition.Gateway
+namespace ITOps.ViewModelComposition
 {
     public static class ApplicationBuilderExtensions
     {

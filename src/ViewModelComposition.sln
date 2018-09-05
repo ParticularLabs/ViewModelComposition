@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITOps.ViewModelComposition", "ITOps.ViewModelComposition\ITOps.ViewModelComposition.csproj", "{1CB1214F-5A83-4184-BD6A-204B0BEED77C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITOps.ViewModelComposition.Gateway", "ITOps.ViewModelComposition.Gateway\ITOps.ViewModelComposition.Gateway.csproj", "{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITOps.ViewModelComposition.Mvc", "ITOps.ViewModelComposition.Mvc\ITOps.ViewModelComposition.Mvc.csproj", "{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{1CB1214F-5A83-4184-BD6A-204B0BEED77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB1214F-5A83-4184-BD6A-204B0BEED77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB1214F-5A83-4184-BD6A-204B0BEED77C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E357BE0A-E32C-42D9-B4F8-C0DC124C10A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360B1F7B-A2A0-4C44-869B-67E9DCBD2531}.Release|Any CPU.ActiveCfg = Release|Any CPU
