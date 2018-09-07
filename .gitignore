@@ -2,25 +2,22 @@ nugets
 deploy
 build32
 binaries
-*UpgradeLog.*
 *.vshost.*
-*.lock.json
 .nu
-.learningtransport
 _UpgradeReport.*
 *.cache
 *~
 *.swp
 results
-*Backup*
 CommonAssemblyInfo.cs
 lib/sqlite/System.Data.SQLite.dll
 *.orig
 *.zip
-**/storage/*
+Samples/DataBus/storage
 packages
 PrecompiledWeb
 tempstorage
+.learningtransport
 core-only
 Release
 Artifacts
@@ -32,9 +29,6 @@ _NCrunch_NServiceBus/*
 logs
 run-git.cmd
 src/Chocolatey/Build/*
-*nsb_log*
-
-Emails
 
 installer/[F|f]iles
 installer/[C|c]ustom[A|a]ctions
@@ -49,11 +43,12 @@ installer/ServiceControl-cache
 # User-specific files
 *.suo
 *.user
+*.json.lock
+*.nuget.targets
+*.lock.json
 *.userosscache
 *.sln.docstates
 .vs/
-
-DataBusShare
 
 # mac temp file ignore
 .DS_Store
@@ -98,4 +93,3 @@ src/scaffolding.config
 # JetBrains Rider
 .idea/
 *.sln.iml
-PromotedSqlScripts/

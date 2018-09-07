@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Threading.Tasks;
-
-namespace ITOps.ViewModelComposition
+﻿namespace Particular.ViewModelComposition
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Dynamic;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Routing;
+
     internal class DynamicViewModel : DynamicObject, IPublishCompositionEvents
     {
         private readonly RouteData routeData;
