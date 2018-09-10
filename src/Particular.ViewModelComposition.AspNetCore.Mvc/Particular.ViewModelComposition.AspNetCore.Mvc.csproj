@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Particular.ViewModelComposition\Particular.ViewModelComposition.csproj" />
+    <ProjectReference Include="..\Particular.ViewModelComposition.AspNetCore\Particular.ViewModelComposition.AspNetCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>
