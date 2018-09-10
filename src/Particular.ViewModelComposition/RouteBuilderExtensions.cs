@@ -1,4 +1,4 @@
-﻿namespace Particular.ViewModelComposition.Gateway
+﻿namespace Particular.ViewModelComposition
 {
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Routing;

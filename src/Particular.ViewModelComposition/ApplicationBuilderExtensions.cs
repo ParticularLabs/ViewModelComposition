@@ -1,4 +1,4 @@
-namespace Particular.ViewModelComposition.Gateway
+namespace Particular.ViewModelComposition
 {
     using System;
     using System.Threading.Tasks;
