@@ -1,13 +1,13 @@
-namespace Particular.ViewModelComposition
+namespace Particular.ViewModelComposition.AspNetCore
 {
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Http;
-    using Microsoft.AspNetCore.Routing;
-    using Microsoft.Extensions.DependencyInjection;
+	using System.Collections.Generic;
+	using System.Linq;
+	using System.Threading.Tasks;
+	using Microsoft.AspNetCore.Http;
+	using Microsoft.AspNetCore.Routing;
+	using Microsoft.Extensions.DependencyInjection;
 
-    public class CompositionHandler
+	public class CompositionHandler
     {
         public static async Task<(dynamic ViewModel, int StatusCode)> HandleGetRequest(HttpContext context)
         {

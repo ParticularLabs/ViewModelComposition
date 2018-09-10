@@ -1,9 +1,9 @@
-﻿namespace Particular.ViewModelComposition.Mvc
+﻿namespace Particular.ViewModelComposition.AspNetCore.Mvc
 {
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Extensions.DependencyInjection;
+	using Microsoft.AspNetCore.Mvc;
+	using Microsoft.Extensions.DependencyInjection;
 
-    public static class MvcBuilderExtensions
+	public static class MvcBuilderExtensions
     {
         public static IMvcBuilder AddViewModelCompositionMvcSupport(this IMvcBuilder builder)
         {

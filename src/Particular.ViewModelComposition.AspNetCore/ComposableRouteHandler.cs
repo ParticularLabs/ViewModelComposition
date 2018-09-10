@@ -1,11 +1,11 @@
-﻿namespace Particular.ViewModelComposition
+﻿namespace Particular.ViewModelComposition.AspNetCore
 {
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Http;
-    using Newtonsoft.Json;
-    using Newtonsoft.Json.Serialization;
+	using System.Threading.Tasks;
+	using Microsoft.AspNetCore.Http;
+	using Newtonsoft.Json;
+	using Newtonsoft.Json.Serialization;
 
-    class ComposableRouteHandler
+	class ComposableRouteHandler
     {
         public static async Task HandleGetRequest(HttpContext context)
         {
