@@ -5,7 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
     <Description>ViewModel composition for ASP.NET Core MVC</Description>
-    <PackageTags>aspnetcore ui composition viewmodel</PackageTags>
+    <PackageTags>ui composition viewmodel aspnetcore mvc</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
