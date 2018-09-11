@@ -1,11 +1,11 @@
 ﻿namespace Particular.ViewModelComposition.AspNetCore
 {
-	using Microsoft.AspNetCore.Http;
-	using Microsoft.AspNetCore.Routing;
-	using Microsoft.AspNetCore.Routing.Constraints;
-	using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Routing;
+    using Microsoft.AspNetCore.Routing.Constraints;
+    using Microsoft.Extensions.DependencyInjection;
 
-	public static class RouteBuilderExtensions
+    public static class RouteBuilderExtensions
     {
         public static IRouteBuilder MapComposableGet(
             this IRouteBuilder routeBuilder,

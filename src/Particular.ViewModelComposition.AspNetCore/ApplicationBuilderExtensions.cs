@@ -1,12 +1,12 @@
 namespace Particular.ViewModelComposition.AspNetCore
 {
-	using System;
-	using System.Threading.Tasks;
-	using Microsoft.AspNetCore.Builder;
-	using Microsoft.AspNetCore.Http;
-	using Microsoft.AspNetCore.Routing;
+    using System;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Routing;
 
-	public static class ApplicationBuilderExtensions
+    public static class ApplicationBuilderExtensions
     {
         public static void RunCompositionGateway(this IApplicationBuilder app, Action<IRouteBuilder> configureRouteBuilder = null)
         {

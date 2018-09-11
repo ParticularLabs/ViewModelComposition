@@ -1,13 +1,13 @@
 ﻿namespace Particular.ViewModelComposition.AspNetCore
 {
-	using System;
-	using System.Collections.Generic;
-	using System.IO;
-	using System.Linq;
-	using System.Reflection;
-	using Microsoft.Extensions.DependencyInjection;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using Microsoft.Extensions.DependencyInjection;
 
-	public static class ServiceCollectionExtensions
+    public static class ServiceCollectionExtensions
     {
         public static void AddViewModelComposition(this IServiceCollection services) =>
             AddViewModelComposition(services, "*ViewModelComposition*.dll");

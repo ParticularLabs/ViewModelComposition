@@ -1,13 +1,13 @@
 ﻿namespace Particular.ViewModelComposition.AspNetCore
 {
-	using System;
-	using System.IO;
-	using System.Linq;
-	using System.Reflection;
-	using System.Runtime.Loader;
-	using Microsoft.Extensions.DependencyModel;
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using System.Runtime.Loader;
+    using Microsoft.Extensions.DependencyModel;
 
-	internal static class AssemblyLoader
+    static class AssemblyLoader
     {
         public static Assembly Load(string path)
         {
