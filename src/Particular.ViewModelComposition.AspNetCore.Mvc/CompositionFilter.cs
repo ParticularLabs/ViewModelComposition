@@ -1,4 +1,4 @@
-﻿namespace Particular.ViewModelComposition.Mvc
+﻿namespace Particular.ViewModelComposition.AspNetCore.Mvc
 {
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Http;

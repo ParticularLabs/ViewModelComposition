@@ -1,4 +1,4 @@
-﻿namespace Particular.ViewModelComposition
+﻿namespace Particular.ViewModelComposition.AspNetCore
 {
     using System;
     using System.IO;
@@ -7,7 +7,7 @@
     using System.Runtime.Loader;
     using Microsoft.Extensions.DependencyModel;
 
-    internal static class AssemblyLoader
+    static class AssemblyLoader
     {
         public static Assembly Load(string path)
         {

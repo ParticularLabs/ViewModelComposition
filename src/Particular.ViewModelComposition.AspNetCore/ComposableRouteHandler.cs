@@ -1,4 +1,4 @@
-﻿namespace Particular.ViewModelComposition.Gateway
+﻿namespace Particular.ViewModelComposition.AspNetCore
 {
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Http;

@@ -1,4 +1,4 @@
-namespace Particular.ViewModelComposition
+namespace Particular.ViewModelComposition.AspNetCore
 {
     using System.Collections.Generic;
     using System.Linq;

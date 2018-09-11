@@ -4,12 +4,12 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
-    <Description>Package for view model composition in ASP.NET Core</Description>
-    <PackageTags>aspnetcore ui composition viewmodel</PackageTags>
+    <Description>ViewModel composition for ASP.NET Core MVC</Description>
+    <PackageTags>ui composition viewmodel aspnetcore mvc</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Particular.ViewModelComposition\Particular.ViewModelComposition.csproj" />
+    <ProjectReference Include="..\Particular.ViewModelComposition.AspNetCore\Particular.ViewModelComposition.AspNetCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

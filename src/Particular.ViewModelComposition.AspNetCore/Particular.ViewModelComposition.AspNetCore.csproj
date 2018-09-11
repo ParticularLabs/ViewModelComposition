@@ -4,8 +4,8 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
-    <Description>Package for view model composition.</Description>
-    <PackageTags>ui composition viewmodel</PackageTags>
+    <Description>ViewModel composition for ASP.NET Core</Description>
+    <PackageTags>ui composition viewmodel aspnetcore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

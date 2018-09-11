@@ -1,4 +1,4 @@
-﻿namespace Particular.ViewModelComposition
+﻿namespace Particular.ViewModelComposition.AspNetCore
 {
     using Microsoft.AspNetCore.Routing;
 
