@@ -18,7 +18,7 @@
 
             foreach (var assemblyPath in Directory.GetFiles(AppContext.BaseDirectory, assemblySearchPattern))
             {
-                var assemblyTypes = AssemblyLoader.Load(assemblyPath)
+                var assemblyTypes = Assembly.LoadFrom(assemblyPath)
                     .GetTypes()
                     .Where(type => !type.GetTypeInfo().IsAbstract && typeof(IRouteInterceptor).IsAssignableFrom(type));
 
