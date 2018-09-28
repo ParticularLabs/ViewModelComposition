@@ -15,9 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ViewModelComposition\ITOps.ViewModelComposition.Gateway\ITOps.ViewModelComposition.Gateway.csproj" />
-    <ProjectReference Include="..\ViewModelComposition\ITOps.ViewModelComposition.Mvc\ITOps.ViewModelComposition.Mvc.csproj" />
-    <ProjectReference Include="..\ViewModelComposition\ITOps.ViewModelComposition\ITOps.ViewModelComposition.csproj" />
+    <ProjectReference Include="..\..\src\Particular.ViewModelComposition.AspNetCore.Mvc\Particular.ViewModelComposition.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\..\src\Particular.ViewModelComposition.AspNetCore\Particular.ViewModelComposition.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>

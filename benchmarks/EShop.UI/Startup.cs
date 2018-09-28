@@ -1,10 +1,10 @@
 ﻿namespace EShop.UI
 {
-    using ITOps.ViewModelComposition;
-    using ITOps.ViewModelComposition.Mvc;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.DependencyInjection;
+    using Particular.ViewModelComposition.AspNetCore;
+    using Particular.ViewModelComposition.AspNetCore.Mvc;
 
     public class Startup
     {

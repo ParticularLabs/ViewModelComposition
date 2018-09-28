@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ViewModelComposition\ITOps.ViewModelComposition.Gateway\ITOps.ViewModelComposition.Gateway.csproj" />
-    <ProjectReference Include="..\ViewModelComposition\ITOps.ViewModelComposition\ITOps.ViewModelComposition.csproj" />
+    <ProjectReference Include="..\..\src\Particular.ViewModelComposition.AspNetCore\Particular.ViewModelComposition.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>

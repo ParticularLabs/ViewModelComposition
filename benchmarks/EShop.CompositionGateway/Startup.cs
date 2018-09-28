@@ -1,10 +1,9 @@
 ﻿namespace EShop.CompositionGateway
 {
-    using ITOps.ViewModelComposition;
-    using ITOps.ViewModelComposition.Gateway;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.DependencyInjection;
+    using Particular.ViewModelComposition.AspNetCore;
 
     public class Startup
     {

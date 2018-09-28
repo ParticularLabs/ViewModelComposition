@@ -1,13 +1,13 @@
 ﻿namespace Marketing.ViewModelComposition
 {
     using System.Threading.Tasks;
-    using ITOps.ViewModelComposition;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Routing;
+    using Particular.ViewModelComposition.AspNetCore;
 
-    public class ProductDetailsGetHandler : IHandleRequests
+    public class ProductDetailsGetHandler : IViewModelAppender
     {
-        public bool Matches(RouteData routeData, string httpVerb, HttpRequest request)
+        public bool Matches(RouteData routeData, string httpVerb)
         {
             var controller = (string) routeData.Values["controller"];
 
@@ -16,7 +16,7 @@
                    && routeData.Values.ContainsKey("id");
         }
 
-        public Task Handle(dynamic vm, RouteData routeData, HttpRequest request)
+        public Task Append(dynamic vm, RouteData routeData, IQueryCollection query)
         {
             vm.ProductName = "iPhoneX";
             vm.ProductDescription = "Coolest phone ever";
