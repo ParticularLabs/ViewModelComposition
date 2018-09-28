@@ -9,16 +9,22 @@ namespace Particular.ViewModelComposition.AspNetCore
 
     public class CompositionHandler
     {
+        static Dictionary<string, IRouteInterceptor[]> cache = new Dictionary<string, IRouteInterceptor[]>();
+
         public static async Task<(dynamic ViewModel, int StatusCode)> HandleGetRequest(HttpContext context)
         {
             var routeData = context.GetRouteData();
+            var request = context.Request;
+            var viewModel = new DynamicViewModel(routeData, request.Query);
 
-            var viewModel = new DynamicViewModel(routeData, context.Request.Query);
+            if (!cache.TryGetValue(request.Path, out var interceptors))
+            {
+                interceptors = context.RequestServices.GetServices<IRouteInterceptor>()
+                    .Where(a => a.Matches(routeData, request.Method))
+                    .ToArray();
 
-            // matching interceptors could be cached by URL
-            var interceptors = context.RequestServices.GetServices<IRouteInterceptor>()
-                .Where(interceptor => interceptor.Matches(routeData, HttpMethods.Get))
-                .ToList();
+                cache.Add(request.Path, interceptors);
+            }
 
             try
             {
