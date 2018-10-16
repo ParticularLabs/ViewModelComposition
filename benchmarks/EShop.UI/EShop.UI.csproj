@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspnetCore.Mvc" Version="2.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Particular.ViewModelComposition.AspNetCore.Mvc\Particular.ViewModelComposition.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\..\src\Particular.ViewModelComposition.AspNetCore\Particular.ViewModelComposition.AspNetCore.csproj" />
+  </ItemGroup>
+
+</Project>
